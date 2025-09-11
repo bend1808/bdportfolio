@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Portfolio</title>
+    <!-- Font awesome for icon-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link to css for style-->
+     <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Navigation  -->
+     <nav>
+        <div class="logo">BEN<span>DEV</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+     </nav>
+
+    <!--Profile Section-->
+    <section class="profile" id ="home">
+        <div class="profile-content">
+            <h1>Hi, I'm <span> Ben Doan </span><br>Web Developer</h1>
+            <p>Welcome to my portfolio website! I'm a passionate developer with few experience in creating dynamic and responsive web applications but I love to learn more. Explore my projects and feel free to reach out!</p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </div>
+        <div class="profile-container">
+            <div class="profile-border"></div>
+            <div class="tech-icons">
+                <i class="tech-icon top" style=" top: 0; left: 50%; transform: translateX(-50%);">💻</i>
+                <i class="tech-icon left" style=" top: 50%; right: 0; transform: translateY(-50%);">🎮</i>
+                <i class="tech-icon bottom" style=" bottom: 0; left: 50%; transform: translateX(-50%);">🏆</i>
+                <i class="tech-icon right" style=" top: 50%; left:0; transform: translateY(-50%);">🏀</i>
+            </div>
+            <img src="profile.jpg" alt="Profile Picture" width="300px"
+            class="profile-pic">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class=" section-title">About me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p> I'm a passionate developer currently study at the University of Texas at Dallas with a degree in Computer Science. I have a strong foundation in web development, and I'm always eager to learn new technologies and improve my skills. In my free time, I enjoy gaming, playing basketball, and spending time with friends and family.</p>
+                <p> This is my first website that I learned from MzCode youtube channel and I try to code the whole website by myself.</p>
+            </div>
+
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Java Script</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>React</span>
+                    <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                </div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Node.js</span>
+                    <span>73%</span>
+                </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 73%"></div>
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>UX/UI Design</span>
+                    <span>80%</span>
+                </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>  
+        </div>
+    </section>
+        <!-- Contact Section-->
+         <section class="contact" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-lable">Name</label>
+                    <input type="text" id="name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-lable">Email</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" class="form-lable">Subject</label>
+                    <input type="text" id="subject" class="form-input" required>
+
+                <div class="form-group">
+                    <label for="message" class="form-lable">Message</label>
+                    <textarea id="message" class="form-textarea" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Send Message</button>
+
+
+            </form>
+         </section>
+
+
+        <!-- Footer Section-->
+        <footer>
+            <p>&copy; 2025 Ben Doan. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-links"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-links"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-links"><i class="fab fa-github"></i></a>
+            </div>
+    <!-- Link to script.js -->
+     <script src="script.js"></script>
+</body>     
+</html>
