@@ -16,9 +16,14 @@
         <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>
+
+           <div class="like-box">
+    <button id="likeBtn">👍 Like</button>
+    <span id="likeCount">0</span> likes
+    </div>
      </nav>
 
     <!--Profile Section-->
@@ -40,8 +45,9 @@
            
             class="profile-pic">
         </div>
-    </section>
 
+    </section>
+    <!-- About Section-->
     <section class="about" id="about">
         <h2 class=" section-title">About me</h2>
         <div class="about-content">
@@ -53,13 +59,13 @@
             <div class="skills">
                 <div class="skill-item">
                     <div class="skill-name">
-                        <span>Java Script</span>
+                        <span>JavaScript</span>
                         <span>85%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 85%"></div>
+                    </div>
                 </div>
-            </div>
             <div class="skill-item">
                 <div class="skill-name">
                     <span>React</span>
@@ -75,15 +81,80 @@
                 </div>
             <div class="skill-bar">
                 <div class="skill-progress" style="width: 73%"></div>
+            </div>
             <div class="skill-item">
                 <div class="skill-name">
                     <span>UX/UI Design</span>
                     <span>80%</span>
                 </div>
             <div class="skill-bar">
-                <div class="skill-progress" style="width: 80%"></div>  
+                <div class="skill-progress" style="width: 80%"></div> 
+            </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+            </div>             
         </div>
     </section>
+        <!-- Projects Section-->
+        <section class="projects" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- first project-->
+                <div class="project-card">
+                    <img src="card1.jpg" alt="Project 1" height="200px" class ="project-image">
+                    <div class ="project-info">
+                        <h3 class="project-title">Mini Space Invader Game</h3>
+                        <p class="project-description">Another version of Space Invader game. Our favorite game from childhood</p>
+                        <div class ="project-tech">
+                            <span class="tech-tag">Java</span>
+                    </div>
+                        <div class="project-links">
+                        <a href="#" class="project-link">Can't view because this is my mini project at schoold and the github repo is private</a>  
+                        </div>
+                    </div>
+               </div> 
+                <!-- second project-->
+                <div class="project-card">
+                    <img src="card2.jpg" alt="Project 2" height="200px" class="project-image">
+                    <div class ="project-info">
+                        <h3 class="project-title">Library System Program</h3>
+                        <p class="project-description">Design and implement a MySQL-backed library management system with Python.  
+                        It provides both a database schema and a GUI frontend for handling typical library operations like managing 
+                        books, borrowers, check-ins, check-outs, fines, and searches.</p>
+                        <div class ="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                        <a href="#" class="project-link">Can't view because this is my mini project at schoold and the github repo is private</a> 
+                        </div>
+                    </div>
+                </div>
+                <!-- third project-->
+                <div class="project-card">
+                    <img src="card3.jpg" alt="Project 3" height="200px" class="project-image">
+                    <div class ="project-info">
+                        <h3 class="project-title">Todo List Mini Project</h3>
+                        <p class="project-description">Design a mini Todo list project that we can add work and verify it when done, also can delete it.</p>
+                        <div class ="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                        <a href="https://bend1808.github.io/todo-list-demo/" class="project-link"><i class="fas fa-external-link-alt"></i> Live demo</a>
+                        <a href="https://github.com/bend1808/todo-list-demo" class="project-link"><i class="fab fa-github"></i> Code</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section-->
          <section class="contact" id="contact">
             <h2 class="section-title">Get In Touch</h2>
@@ -118,12 +189,11 @@
         <footer>
             <p>&copy; 2025 Ben Doan. All rights reserved.</p>
             <div class="social-links">
-                <a href="#" class="social-links"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-links"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-links"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/duy.khanh.652953/" class="social-links"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/khanh-doan-967b44317/" class="social-links"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/bend1808" class="social-links"><i class="fab fa-github"></i></a>
             </div>
     <!-- Link to script.js -->
-     <script src="script.js?v=2"></script>
+     <script type="module" src="script.js?v=2"></script>
 </body>     
 </html>
